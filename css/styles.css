@@ -31,7 +31,7 @@ g#mapDiv_graphics_layer path {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 90%;
+  height: 70%;
 }
 
 .loading-indicator {
@@ -541,7 +541,23 @@ g#mapDiv_graphics_layer path {
 
 img {
   border: 0;
-  margin: 5px;
+  margin: 1px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: large;
+  font-weight:bold;
+  color: white;
+  background-color: firebrick;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 40%;
+}
+
+.link:hover {
+  font-size:x-large;
+  color: yellow;
 }
 
 .LocateButton .tracking {
