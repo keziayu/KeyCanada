@@ -541,7 +541,8 @@ g#mapDiv_graphics_layer path {
 
 img {
   border: 0;
-  margin: 1px;
+  margin: 5px;
+  margin-top: 10px;
 }
 
 .link {
@@ -558,6 +559,15 @@ img {
 .link:hover {
   font-size:x-large;
   color: yellow;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rosybrown;
+  width: 100%;
+  font-weight: bold;
 }
 
 .LocateButton .tracking {
